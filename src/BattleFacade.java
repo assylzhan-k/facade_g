@@ -26,6 +26,6 @@ public class BattleFacade {
         System.out.println("Enemy health: " + enemyHealth);
         System.out.println("Remaining energy: " + energy);
         int reward = rewardSystem.calculateReward(enemyHealth);
-        System.out.println("Reward: " + reward + " mora");
+        System.out.println("Reward: " + reward + "mora");
     }
 }
