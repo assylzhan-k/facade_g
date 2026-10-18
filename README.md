@@ -50,24 +50,11 @@ The client communicates only with BattleFacade.
 
 ## Code Example
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        BattleFacade battle = new BattleFacade();
-        battle.startBattle("Traveler", "Slime");
-    }
-}
-```
+<img width="552" height="176" alt="Screenshot 2026-10-18 at 20 43 43" src="https://github.com/user-attachments/assets/7f4ce7b9-766a-402d-bbe6-d003919bd1fc" />
 
 ## Output
 
-```text
-Traveler fights Slime
-Damage dealt: 55
-Enemy health: 0
-Remaining energy: 10
-Reward: 100 gold
-```
+<img width="552" height="215" alt="Screenshot 2026-10-18 at 20 46 27" src="https://github.com/user-attachments/assets/6110cfe7-eaeb-4ce9-ba1e-63340901b631" />
 
 ## Clean Code Principles
 
@@ -76,32 +63,3 @@ Reward: 100 gold
 3. **Encapsulation** — Subsystem objects are private in BattleFacade.
 4. **DRY Principle** — Battle coordination logic is not repeated in the client.
 5. **Separation of Concerns** — Each subsystem handles a different part of the battle.
-
-## Advantages
-
-- Simplifies client code.
-- Reduces dependencies.
-- Improves readability.
-- Makes maintenance easier.
-- Hides complex subsystem interactions.
-
-## How to Run
-
-1. Clone the repository.
-2. Open the project in IntelliJ IDEA.
-3. Open `Main.java`.
-4. Run the program.
-5. View the results in the console.
-
-## Conclusion
-
-The Facade Pattern simplifies complex interactions between multiple subsystems.
-
-In this project, BattleFacade provides one simple interface to manage the RPG battle process.
-
-## Assignment Information
-
-- **Course:** Software Design Patterns
-- **Assignment:** #4
-- **Pattern:** Facade
-- **Language:** Java
